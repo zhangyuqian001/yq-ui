@@ -8,13 +8,32 @@ module.exports = {
                 text: '主页',
                 link: '/'
             }, // 导航条
+            {
+                text:'Angular组件库',
+                link:'/'
+            },
+            {
+                text:'React组件库',
+                link:'/'
+            },
+            {
+                text:'GitHub',
+                link:'https://github.com/zhangyuqian001/yq-vue-ui'
+            },
+            {
+                text:'npm地址',
+                link:'https://www.npmjs.com/package/yq-vue-ui'
+            }
         ],
         // 为以下路由添加侧边栏
         sidebar: {
             '/components/': [{
                     collapsable: true,
                     children: [
-                        'button'
+                        'button',
+                        'dialog',
+                        'loading',
+                        'input'
                     ]
                 }
             ]
